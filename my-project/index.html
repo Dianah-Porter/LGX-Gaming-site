@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  </head>
+  <body>
+    <div class="container relative"> 
+     <div class="">  <!--Hero background-->
+        <img src="./images/banner-bg.jpeg" alt="" class="rounded-br-[200px] rounded-bl-[200px] 
+        md:h-[160vh] h-[200vh] ">
+      </div>
+
+      
+
+      <nav class="text-white  flex items-center justify-between p-2 rounded-bl-2xl rounded-br-2xl mx-auto absolute w-full top-0">
+      <a href="" class="ml-12"><img src="./images/logo.png" alt=""></a>
+      <div class="md:hidden">
+      <i id="open" class="fa-solid fa-bars "></i>
+      <i id="close" class="fa-solid fa-xmark hidden"></i>
+       </div>
+      
+      
+      <div  class="hidden md:flex md:justify-between  ">
+        <a href="" class="bg-blue-500  px-6 py-2 rounded-full">Home</a>
+        <a href="" class="hover:bg-blue-500 px-4 py-2 rounded-full">Our Shop</a>
+        <a href="" class="hover:bg-blue-500 px-4 py-2 rounded-full">Product Details</a>
+        <a href="" class="hover:bg-blue-500 px-4 py-2 rounded-full">Contact Us</a>
+        <a href="" class="bg-red-400 px-4 rounded-full py-2 mr-12">SIGN IN </a>
+      </div>
+    </nav> 
+     <div id="menu" class="absolute top-20 w-full mx-auto bg-white hidden space-y-2 text-center rounded-b-xl">
+        <div><a href="" class=" py-2 rounded-full">Home</a></div><hr>
+        <div><a href="" class="hover:text-red-400 py-2 rounded-full">Our Shop</a></div><hr>
+        <div><a href="" class=" hover:text-red-400 py-2 rounded-full">Product Details</a></div><hr>
+        <div><a href="" class=" hover:text-red-400 py-2 rounded-full">Contact Us</a></div><hr>
+        <div><a href="" class=" rounded-full py-2 ">SIGN IN </a></div><hr>
+      </div>
+    <div class="md:pl-16 md:pr-16 md:px-12 ">  <!--The whole body content-->
+  
+
+      <div class=" top-56 flex flex-col md:flex-row md:gap-10 absolute  "> <!--Hero content-->
+        <div class="div-1  text-white">
+          <h3 class="text-xl">WELCOME TO LGX</h3>
+          <h1 class="text-5xl font-bold pt-6 ">BEST GAMING SITE EVER !</h1>
+          <img src="./images/caption-dec.png" alt="" class="pl-32">
+          <p class="pt-12">LUGX Gaming is free Bootstrap 5 HTML CSS website template for your gaming <br>
+            websites. You can download and use this layout for commercial purposes. <br>
+            Please tell your friends about TemplateMo.</p>
+
+            <div class="input pt-24 relative">
+            <input type="text" placeholder="Type something " class="rounded-3xl md:pr-32 md:pl-4 py-3 text-gray-500 relative outline-none  w-full " >
+            <button class="bg-red-500 px-4 rounded-3xl py-3  text-white absolute  right-0 hover:bg-blue-600">SEARCH NOW</button>
+            </div>
+        </div>
+        <div class=" relative flex  w-96 mt-8 md:ml-24">      <!--pic on hero image-->
+           <div class="text-white bg-blue-500 flex justify-center absolute  rounded-full font-bold text-xl top-4 right-8 w-20"><p>$22</p></div>
+          <img class=" rounded-2xl " src="./images/banner-image.jpeg" alt="" class="w-full
+          ">
+          <div class="text-white text-2xl font-bold wp
+          bg-red-500 w-12 h-12 p-12 flex justify-center items-center rounded-full absolute -bottom-6 -left-4">-40%</div>
+        </div>
+      </div>
+
+      
+          <section class="grid md:grid-cols-4 -mt-16 gap-10  pb-24"> <!--divs-->
+          <div class=" divs w-full items-center justify-center p-12 rounded-xl border shadow-2xl  bg-white mx-auto">
+            <img src="./images/featured-01.png" alt="" class="bg-blue-600 rounded-full p-4 hover:bg-red-500 mx-auto"> 
+            <h2 class="font-bold flex justify-center">FREE STORAGE </h2>
+          </div> 
+          <div class=" divs w-full items-center justify-center p-12 rounded-xl border shadow-2xl bg-white mx-auto">
+            <img src="./images/featured-02 (2).png" alt="" class="bg-blue-600 rounded-full p-4 hover:bg-red-500 mx-auto"> 
+            <h2 class="font-bold flex justify-center">USER MORE </h2>
+          </div>
+          <div class=" divs w-full items-center justify-center p-12 rounded-xl border shadow-2xl bg-white mx-auto">
+            <img src="./images/featured-03.png" alt="" class="bg-blue-600 rounded-full p-4 hover:bg-red-500 mx-auto"> 
+            <h2 class="font-bold flex justify-center">REPLY READY </h2>
+          </div> 
+          <div class=" divs w-full items-center justify-center p-12 rounded-xl border shadow-2xl bg-white mx-auto">
+            <img src="./images/featured-04.png" alt="" class="bg-blue-600 rounded-full p-4 hover:bg-red-500 mx-auto"> 
+            <h2 class="font-bold flex justify-center">EASY LAYOUT </h2>
+          </div>      
+          </section>
+
+          <div class="font-bold">
+            <h3 class="text-red-500">TRENDING</h3>
+            <div class="flex justify-between">
+            <h1 class="text-4xl">Trending Games</h1>
+            <button class="bg-red-500 px-4 rounded-full py-2 mr-12 text-white ">VIEW ALL</button>
+            </div>
+          </div>
+
+          <div class="Games grid grid-cols-4 pt-24 gap-12">
+            <div class="Game1 w-full">
+              <img src="./images/trending-01.jpeg" alt="" class="rounded-2xl">
+              <div class="flex flex-col justify-center ">
+                <h3 class="text-center"> Adventure</h3>
+                <h2 class="text-center">Assasin Creed</h2>
+                <button class="bg-red-500 px-4 rounded-full py-2 mx-auto text-white w-32 mb-4">Explore</button>
+              </div>
+            </div>
+            <div class="Game1 w-full">
+              <img src="./images/trending-02.jpeg" alt="" class="rounded-2xl">
+              <div class="flex flex-col justify-center ">
+                <h3 class="text-center"> Adventure</h3>
+                <h2 class="text-center">Assasin Creed</h2>
+                <button class="bg-red-500 px-4 rounded-full py-2 mx-auto text-white w-32 mb-4">Explore</button>
+              </div>
+            </div>
+            <div class="Game1 w-full">
+              <img src="./images/trending-03.jpeg" alt="" class="rounded-2xl">
+              <div class="flex flex-col justify-center ">
+                <h3 class="text-center"> Adventure</h3>
+                <h2 class="text-center">Assasin Creed</h2>
+                <button class="bg-red-500 px-4 rounded-full py-2 mx-auto text-white w-32 mb-4">Explore</button>
+              </div>
+            </div>
+            <div class="Game1 w-full">
+              <img src="./images/trending-04.jpeg" alt="" class="rounded-2xl">
+              <div class="flex flex-col justify-center ">
+                <h3 class="text-center"> Adventure</h3>
+                <h2 class="text-center">Assasin Creed</h2>
+                <button class="bg-red-500 px-4 rounded-full py-2 mx-auto text-white w-32 mb-4">Explore</button>
+              </div>
+            </div>
+
+          </div>
+    </div>
+  </div>
+    
+  <script type="module" src="/src/main.js"></script>
+  <script src="script.js"></script>
+  </body>
+</html>

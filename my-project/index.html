@@ -9,15 +9,12 @@
   </head>
   <body>
     <div class="container relative"> 
-     <div class="">  <!--Hero background-->
-        <img src="./images/banner-bg.jpeg" alt="" class="rounded-br-[200px] rounded-bl-[200px] 
-        md:h-[160vh] h-[200vh] ">
-      </div>
-
-      
+     <div class="bg-[url('images/banner-bg.jpeg')] pb-[80rem] md:pb-[80rem] lg:pb-[56rem] bg-cover bg-scroll bg-center rounded-b-[100px] ">  <!--Hero background-->
+        <!-- <img src="" alt="" class="rounded-br-[200px] rounded-bl-[200px] 
+        md:h-[160vh] h-[200vh] "> -->
 
       <nav class="text-white  flex items-center justify-between p-2 rounded-bl-2xl rounded-br-2xl mx-auto absolute w-full top-0">
-      <a href="" class="ml-12"><img src="./images/logo.png" alt=""></a>
+      <a href="" class="ml-11"><img src="./images/logo.png" alt=""></a>
       <div class="md:hidden">
       <i id="open" class="fa-solid fa-bars "></i>
       <i id="close" class="fa-solid fa-xmark hidden"></i>
@@ -42,7 +39,7 @@
     <div class="md:pl-16 md:pr-16 md:px-12 ">  <!--The whole body content-->
   
 
-      <div class=" top-56 flex flex-col md:flex-row md:gap-10 absolute  "> <!--Hero content-->
+      <div class=" top-56 flex flex-col md:flex-col lg:flex-row md:gap-10 absolute pl-6  lg:justify-between lg:gap-32"> <!--Hero content-->
         <div class="div-1  text-white">
           <h3 class="text-xl">WELCOME TO LGX</h3>
           <h1 class="text-5xl font-bold pt-6 ">BEST GAMING SITE EVER !</h1>
@@ -56,80 +53,240 @@
             <button class="bg-red-500 px-4 rounded-3xl py-3  text-white absolute  right-0 hover:bg-blue-600">SEARCH NOW</button>
             </div>
         </div>
-        <div class=" relative flex  w-96 mt-8 md:ml-24">      <!--pic on hero image-->
+        <div class=" relative flex  w-96   mt-8 ">      <!--pic on hero image-->
            <div class="text-white bg-blue-500 flex justify-center absolute  rounded-full font-bold text-xl top-4 right-8 w-20"><p>$22</p></div>
-          <img class=" rounded-2xl " src="./images/banner-image.jpeg" alt="" class="w-full
+          <div class="w-full">
+            <img class=" rounded-2xl " src="./images/banner-image.jpeg" alt="" class="w-full
           ">
+          </div>
           <div class="text-white text-2xl font-bold wp
           bg-red-500 w-12 h-12 p-12 flex justify-center items-center rounded-full absolute -bottom-6 -left-4">-40%</div>
         </div>
       </div>
+      </div>
+      </div>
 
-      
-          <section class="grid md:grid-cols-4 -mt-16 gap-10  pb-24"> <!--divs-->
-          <div class=" divs w-full items-center justify-center p-12 rounded-xl border shadow-2xl  bg-white mx-auto">
-            <img src="./images/featured-01.png" alt="" class="bg-blue-600 rounded-full p-4 hover:bg-red-500 mx-auto"> 
-            <h2 class="font-bold flex justify-center">FREE STORAGE </h2>
+          <div  class="relative mx-10">
+          <section class="grid grid-cols-1 w-full md:grid-cols-2 lg:grid-cols-4  gap-10 absolute -top-10  "> <!--divs-->
+          <div class=" divs flex  items-center h-52 justify-center rounded-xl  shadow-2xl  bg-white border-red-200 flex-col">
+              <div class="w-24 h-24 hover:bg-red-500 bg-blue-600 flex items-center justify-center rounded-full "><img src="./images/featured-01.png" alt="" class="   "></div> 
+            <h2 class="font-bold">FREE STORAGE </h2>
           </div> 
-          <div class=" divs w-full items-center justify-center p-12 rounded-xl border shadow-2xl bg-white mx-auto">
-            <img src="./images/featured-02 (2).png" alt="" class="bg-blue-600 rounded-full p-4 hover:bg-red-500 mx-auto"> 
-            <h2 class="font-bold flex justify-center">USER MORE </h2>
-          </div>
-          <div class=" divs w-full items-center justify-center p-12 rounded-xl border shadow-2xl bg-white mx-auto">
-            <img src="./images/featured-03.png" alt="" class="bg-blue-600 rounded-full p-4 hover:bg-red-500 mx-auto"> 
-            <h2 class="font-bold flex justify-center">REPLY READY </h2>
+          <div class=" divs flex  items-center h-52 justify-center rounded-xl shadow-2xl  bg-white flex-col">
+              <div class="w-24 h-24 hover:bg-red-500 bg-blue-600 flex items-center justify-center rounded-full  "><img src="./images/featured-02 (2).png" alt="" class="   "></div> 
+            <h2 class="font-bold">USER MORE </h2>
           </div> 
-          <div class=" divs w-full items-center justify-center p-12 rounded-xl border shadow-2xl bg-white mx-auto">
-            <img src="./images/featured-04.png" alt="" class="bg-blue-600 rounded-full p-4 hover:bg-red-500 mx-auto"> 
-            <h2 class="font-bold flex justify-center">EASY LAYOUT </h2>
-          </div>      
+          <div class=" divs flex  items-center h-52 justify-center rounded-xl shadow-2xl  bg-white flex-col">
+              <div class="w-24 h-24 hover:bg-red-500 bg-blue-600 flex items-center justify-center rounded-full "><img src="./images/featured-03.png" alt="" class="   "></div> 
+            <h2 class="font-bold">REPLY READY </h2>
+          </div> 
+          <div class=" divs flex  items-center h-52 justify-center rounded-xl shadow-2xl  bg-white flex-col">
+              <div class="w-24 h-24 hover:bg-red-500 bg-blue-600 flex items-center justify-center rounded-full "><img src="./images/featured-04.png" alt="" class="   "></div> 
+            <h2 class="font-bold">FREE STORAGE </h2>
+          </div>       
           </section>
+          </div>
+          </div>
 
-          <div class="font-bold">
-            <h3 class="text-red-500">TRENDING</h3>
-            <div class="flex justify-between">
-            <h1 class="text-4xl">Trending Games</h1>
-            <button class="bg-red-500 px-4 rounded-full py-2 mr-12 text-white ">VIEW ALL</button>
+          <div class="font-bold flex justify-between mt-[60rem] md:mt-[30rem] lg:mt-[18rem] mx-10 lg:mb-24">  
+            <div class="flex flex-col gap-4 mb-6">
+              <h3 class="text-red-500">TRENDING</h3>
+              <h1 class="text-4xl">TRENDING GAMES</h1>
+            </div>    <!--Top Games-->
+            
+            <div class=" hidden lg:flex bg-red-500 rounded-full w-32 h-14 justify-center">
+            <button class="  text-white ">VIEW ALL</button>
             </div>
           </div>
 
-          <div class="Games grid grid-cols-4 pt-24 gap-12">
-            <div class="Game1 w-full">
-              <img src="./images/trending-01.jpeg" alt="" class="rounded-2xl">
-              <div class="flex flex-col justify-center ">
-                <h3 class="text-center"> Adventure</h3>
-                <h2 class="text-center">Assasin Creed</h2>
-                <button class="bg-red-500 px-4 rounded-full py-2 mx-auto text-white w-32 mb-4">Explore</button>
+          <div class="Games grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 px-8 ">
+            <div class="Game1 group w-full shadow-lg rounded-3xl hover:text-blue-500 bg-gray-100">
+              <div><img src="./images/trending-01.jpeg" alt="" class="rounded-2xl w-full"></div>
+              <div class="flex justify-between py-6 px-6">
+                <div>
+                <h3 class="text-gray-400"> Action</h3>
+                <h2 class="font-bold text-xl">Assasin Creed</h2></div>
+                <div class="text-center items-center ">
+                  <i class=" bg-red-500 rounded-full w-12 flex h-12 group-hover:bg-blue-500 items-center justify-center fa-solid fa-bag-shopping text-white "></i>
+                </div>
+                
               </div>
             </div>
-            <div class="Game1 w-full">
-              <img src="./images/trending-02.jpeg" alt="" class="rounded-2xl">
-              <div class="flex flex-col justify-center ">
-                <h3 class="text-center"> Adventure</h3>
-                <h2 class="text-center">Assasin Creed</h2>
-                <button class="bg-red-500 px-4 rounded-full py-2 mx-auto text-white w-32 mb-4">Explore</button>
+            <div class="Game2 group w-full shadow-lg rounded-3xl hover:text-blue-500 bg-gray-100">
+              <div><img src="./images/trending-02.jpeg" alt="" class="rounded-2xl w-full"></div>
+              <div class="flex justify-between py-6 px-6">
+                <div>
+                <h3 class="text-gray-400"> Action</h3>
+                <h2 class="font-bold text-xl">Assasin Creed</h2></div>
+                <div class="text-center items-center ">
+                  <i class=" bg-red-500 rounded-full w-12 flex h-12 group-hover:bg-blue-500 items-center justify-center fa-solid fa-bag-shopping text-white "></i>
+                </div>
+                
               </div>
             </div>
-            <div class="Game1 w-full">
-              <img src="./images/trending-03.jpeg" alt="" class="rounded-2xl">
-              <div class="flex flex-col justify-center ">
-                <h3 class="text-center"> Adventure</h3>
-                <h2 class="text-center">Assasin Creed</h2>
-                <button class="bg-red-500 px-4 rounded-full py-2 mx-auto text-white w-32 mb-4">Explore</button>
+            <div class="Game3 group w-full shadow-lg rounded-3xl hover:text-blue-500 bg-gray-100">
+              <div><img src="./images/trending-03.jpeg" alt="" class="rounded-2xl w-full"></div>
+              <div class="flex justify-between py-6 px-6">
+                <div>
+                <h3 class="text-gray-400"> Action</h3>
+                <h2 class="font-bold text-xl">Assasin Creed</h2></div>
+                <div class="text-center items-center ">
+                  <i class=" bg-red-500 rounded-full w-12 flex h-12 group-hover:bg-blue-500 items-center justify-center fa-solid fa-bag-shopping text-white "></i>
+                </div>
+                
               </div>
             </div>
-            <div class="Game1 w-full">
-              <img src="./images/trending-04.jpeg" alt="" class="rounded-2xl">
-              <div class="flex flex-col justify-center ">
-                <h3 class="text-center"> Adventure</h3>
-                <h2 class="text-center">Assasin Creed</h2>
-                <button class="bg-red-500 px-4 rounded-full py-2 mx-auto text-white w-32 mb-4">Explore</button>
+            <div class="Game4 group w-full shadow-lg rounded-3xl hover:text-blue-500 bg-gray-100">
+              <div><img src="./images/trending-04.jpeg" alt="" class="rounded-2xl w-full"></div>
+              <div class="flex justify-between  py-6 px-6">
+                <div>
+                <h3 class="text-gray-400"> Action</h3>
+                <h2 class="font-bold text-xl">Assasin Creed</h2></div>
+               <div class="text-center items-center ">
+                  <i class=" bg-red-500 rounded-full w-12 flex h-12 group-hover:bg-blue-500 items-center justify-center fa-solid fa-bag-shopping text-white "></i>
+                </div>
+                
               </div>
             </div>
 
           </div>
-    </div>
+          <div class="bg-gray-100 rounded-[100px]  ">
+            <div class="font-bold flex justify-between lg:mt-32 mx-10 lg:mb-12 lg:pt-12 ">  
+              <div class="flex flex-col gap-4 ">
+                <h3 class="text-red-500">TOP GAMES</h3>
+                <h1 class="text-4xl">Most Played</h1>
+              </div>    <!--Top Games-->
+              
+              <div class=" hidden lg:flex bg-red-500 rounded-full w-32 h-14 justify-center">
+              <button class="  text-white ">VIEW ALL</button>
+              </div>
+            </div>
+
+          <div class="Games grid grid-cols-1 md:grid-cols-2 ml-12 md:ml-0 lg:grid-cols-6 pt-12 md:gap-4 items-center px-10 lg:pb-32 ">
+          
+           <div class="Game1 group w rounded-2xl-full shadow-lg bg-gray-100 mb-12 relative">
+              <div><img src="./images/top-game-01.jpeg" alt="" class="rounded-2xl w-full"></div>
+              <div class="flex flex-col justify-center py-6">
+                <h3 class="text-center "> Adventure</h3>
+                <h2 class="text-center group-hover:text-blue-500  text-xl font-bold">Assasin Creed</h2>
+                <button class="bg-red-500 group-hover:bg-blue-500 px-4 rounded-full h-10  text-white w-32 absolute -bottom-6 left-20 md:left-28 lg:left-6">Explore</button>
+              </div>
+            </div>
+            
+            <div class="Game2 group w-full shadow-lg bg-gray-100 mb-12 relative">
+              <div><img src="./images/top-game-02.jpeg" alt="" class="rounded-2xl w-full"></div>
+              <div class="flex flex-col justify-center py-6">
+                <h3 class="text-center  text-gray-400"> Adventure</h3>
+                <h2 class="text-center group-hover:text-blue-500  text-xl font-bold">Assasin Creed</h2>
+                <button class="bg-red-500 group-hover:bg-blue-500 px-4 rounded-full h-10  text-white w-32 absolute -bottom-6 left-20 md:left-28 lg:left-6">Explore</button>
+              </div>
+            </div>
+             <div class="Game3 group w-full shadow-lg bg-gray-100 mb-12 relative">
+              <div><img src="./images/top-game-03.jpeg" alt="" class="rounded-2xl w-full"></div>
+              <div class="flex flex-col justify-center py-6">
+                <h3 class="text-center  text-gray-400"> Adventure</h3>
+                <h2 class="text-center group-hover:text-blue-500  text-xl font-bold">Assasin Creed</h2>
+                <button class="bg-red-500 group-hover:bg-blue-500 px-4 rounded-full h-10  text-white w-32 absolute -bottom-6 left-20 md:left-28 lg:left-6">Explore</button>
+              </div>
+            </div>
+             <div class="Game4 group rounded-2xl w-full shadow-lg bg-gray-100 mb-12 relative">
+              <div><img src="./images/top-game-04.jpeg" alt="" class="rounded-2xl w-full"></div>
+              <div class="flex flex-col justify-center py-6">
+                <h3 class="text-center "> Adventure</h3>
+                <h2 class="text-center group-hover:text-blue-500  text-xl font-bold">Assasin Creed</h2>
+                <button class="bg-red-500 group-hover:bg-blue-500 px-4 rounded-full h-10  text-white w-32 absolute -bottom-6 left-20 md:left-28 lg:left-6">Explore</button>
+              </div>
+            </div>
+             <div class="Game1 group rounded-2xl w-full shadow-lg bg-gray-100 mb-12 relative">
+              <div><img src="./images/top-game-05.jpeg" alt="" class="rounded-2xl w-full"></div>
+              <div class="flex flex-col justify-center py-6">
+                <h3 class="text-center "> Adventure</h3>
+                <h2 class="text-center group-hover:text-blue-500  text-xl font-bold">Assasin Creed</h2>
+                <button class="bg-red-500 group-hover:bg-blue-500 px-4 rounded-full h-10  text-white w-32 absolute -bottom-6 left-20 md:left-28 lg:left-6">Explore</button>
+              </div>
+            </div>
+             <div class="Game6 group rounded-2xl w-full shadow-lg bg-gray-100 mb-12 relative">
+              <div><img src="./images/top-game-06.jpeg" alt="" class="rounded-2xl w-full"></div>
+              <div class="flex flex-col justify-center py-6">
+                <h3 class="text-center "> Adventure</h3>
+                <h2 class="text-center group-hover:text-blue-500  text-xl font-bold">Assasin Creed</h2>
+                <button class="bg-red-500 group-hover:bg-blue-500 px-4 rounded-full h-10  text-white w-32 absolute -bottom-6 left-20 md:left-28 lg:left-6">Explore</button>
+              </div>
+            </div>
+
+          </div>
+          </div><!---->
+          
+          <div class="py-20 text-center">
+            <h3 class="text-red-500 font-bold text-xl">CATEGORIES</h3>
+            <h1 class="text-4xl font-bold">Top Categories</h1>
+          </div>
+
+          <div class="actions grid gap-4 ml-12 mr-12 md:grid-cols-2 lg:grid-cols-5 lg:pb-32">
+              <div class="bg-blue-600 rounded-3xl">
+                <p class="text-white text-xl text-center py-7">Action</p>
+                <img src="./images/categories-01.jpeg" alt="" class="w-full rounded-3xl">
+              </div>
+              <div class="bg-blue-600 rounded-3xl">
+                <p class="text-white text-xl text-center py-7">Action</p>
+                <img src="./images/categories-05.jpeg" alt="" class="w-full rounded-3xl">
+              </div>
+              <div class="bg-blue-600 rounded-3xl">
+                <p class="text-white text-xl text-center py-7">Action</p>
+                <img src="./images/categories-03.jpeg" alt="" class="w-full rounded-3xl">
+              </div>
+              <div class="bg-blue-600 rounded-3xl">
+                <p class="text-white text-xl text-center py-7">Action</p>
+                <img src="./images/categories-04.jpeg" alt="" class="w-full rounded-3xl">
+              </div>
+              <div class="bg-blue-600 rounded-3xl">
+                <p class="text-white text-xl text-center py-7">Action</p>
+                <img src="./images/categories-05.jpeg" alt="" class="w-full rounded-3xl">
+              </div>
+
+          </div>
+
+          <div class="3divs relative lg:mb-[300px]">
+            <div class=" hidden lg:flex justify-center"><img src="./images/cta-bg.jpeg" alt="" class="rounded-2xl">
+            </div>
+
+            <div class="1 bg-gray-100 mb-12 py-12 mt-6 rounded-3xl lg:ml-32 ml-12 mr-12 px-12 lg:w-[400px] lg:-mt-[450px] lg:absolute ">
+              <h3 class="text-red-500 font-bold py-3">OUR SHOP</h3>
+              <h1 class="text-3xl font-bold py-6">Go Pre-Order Buy & Get Best <span class="text-blue-600">Prices</span> For You!</h1>
+              <p class="text-gray-600 pt-12">Lorem ipsum dolor consectetur adipiscing, sed do eiusmod tempor incididunt.</p>
+              <button class="bg-red-500 px-4 rounded-3xl py-3  text-white hover:bg-blue-600 mt-12 ">SHOP NOW</button>
+            </div>
+            <div class="2 bg-gray-100 mb-56 py-12 rounded-3xl ml-12 mr-12 px-12 lg:w-[400px] lg:-mt-[300px] lg:absolute lg:ml-[750px] lg:mb-[100px]">
+              <h3 class="text-red-500 font-bold py-6">NEWSLETTER</h3>
+              <h1 class="text-3xl font-bold py-6">Get Up To $100 Off Just Buy <span class="text-blue-600">Subscribe</span> Newsletter!</h1>
+          
+               <div class="input pt-24 relative">
+            <input type="text" placeholder="Type something " class="rounded-3xl md:pr-32 md:pl-4 py-3 text-gray-500 relative outline-none  w-full " >
+            <button class="bg-red-500 px-4 rounded-3xl py-3  text-white absolute  right-0 hover:bg-blue-600">SEARCH NOW</button>
+            </div>
+            </div>
+          
+            </div>
+
+            
+          </div>
+    
   </div>
+
+  <footer class="">
+      <div class=" relative">
+        
+          <div class="text-center">
+            <img src="./images/footer-bg.jpeg" alt="" class="w-full rounded-t-[80px] h-[4
+            56vh]">
+          </div>
+          <div class="absolute top-5 text-white flex  justify-center text-center ml-24 lg:ml-80">
+            <p class="text-xl">Copyright 2048 LUGX Gaming Company. All rights reserved. Design: TemplateMo</p>
+        
+          </div>
+      
+      </div>
+    </footer>
     
   <script type="module" src="/src/main.js"></script>
   <script src="script.js"></script>
